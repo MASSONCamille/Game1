@@ -67,6 +67,7 @@ public class Astar : Pathfinder
 
     private List<Node> GetListNeighbors(Node n, Node targetNode)
     {
+        // prob surement la
         List<Node> res = new List<Node>();
         List<Vector3Int> listPos = FindNeighborsFunc(n.pos);
 
